@@ -12,6 +12,11 @@
 (package! prettier-js)
 (package! add-node-modules-path)
 (package! exec-path-from-shell)
+(package! lsp-treemacs)
+(package! dap-mode)
+;; Indium mode also requires npm install -g indium
+;; .indium.json file in root - https://indium.readthedocs.io/en/latest/setup.html
+(package! indium)
 ;;; Examples:
 ;; (package! some-package)
 ;; (package! another-package :recipe (:fetcher github :repo "username/repo"))

@@ -2,7 +2,7 @@
 
 
 ;; ------------- Load Personal Modules --------------
-;; (load! "+bindings")
+(load! "+bindings")
 ;; (load! "+lsp")
 (load! "+javascript")
 ;; (load! "+ui")
