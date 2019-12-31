@@ -2,8 +2,10 @@
 
 ;;; private/tt/+bindings.el -*- lexical-binding: t; -*-
 
-
+(unmap! "C-s")
+(global-set-key (kbd "C-s") 'swiper)
 (global-set-key (kbd "s-b") 'treemacs )
+
 ;; (evil-define-key 'insert global-map (kbd "M-f") 'evil-normal-state)
 ;; (evil-define-key 'normal tide-mode-map "R" 'tide-references)
 ;; (evil-define-key 'normal tide-mode-map "Q" 'rjsx-rename-tag-at-point)

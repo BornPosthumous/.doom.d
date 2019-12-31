@@ -6,6 +6,7 @@
 (package! lsp-ui)
 (package! lsp-javascript-typescript)
 (package! lsp-python)
+(package! lsp-java)
 (package! challenger-deep-theme)
 (package! company-lsp)
 (package! manage-minor-mode)
@@ -13,7 +14,9 @@
 (package! add-node-modules-path)
 (package! exec-path-from-shell)
 (package! lsp-treemacs)
-(package! dap-mode)
+(package! rust-mode)
+(package! rustic)
+(package! racer-mode)
 ;; Indium mode also requires npm install -g indium
 ;; .indium.json file in root - https://indium.readthedocs.io/en/latest/setup.html
 (package! indium)
