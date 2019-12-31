@@ -3,6 +3,12 @@
 ;; --------- Set namespace ----------
 (require 'prettier-js)
 
+(use-package exec-path-from-shell
+  :custom
+  (exec-path-from-shell-check-startup-files nil)
+  :config
+  (push "HISTFILE" exec-path-from-shell-variables)
+  (exec-path-from-shell-initialize))
 
 (after! tide
   (setq tide-completion-detailed t
